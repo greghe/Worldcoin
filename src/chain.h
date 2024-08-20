@@ -13,6 +13,7 @@
 #include <uint256.h>
 
 #include <vector>
+#include <list>
 
 /**
  * Maximum amount of time that a block timestamp is allowed to exceed the

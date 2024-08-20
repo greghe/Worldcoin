@@ -12,6 +12,9 @@
 #include <util.h>
 #include <utilstrencodings.h>
 #include <version.h>
+#include <boost/filesystem.hpp>
+
+namespace fs = boost::filesystem;
 
 #include <leveldb/db.h>
 #include <leveldb/write_batch.h>

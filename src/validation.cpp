@@ -56,6 +56,8 @@
 #define MICRO 0.000001
 #define MILLI 0.001
 
+using namespace boost::placeholders;
+
 /**
  * Global state
  */

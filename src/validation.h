@@ -6,6 +6,7 @@
 #ifndef WORLDCOIN_VALIDATION_H
 #define WORLDCOIN_VALIDATION_H
 
+
 #if defined(HAVE_CONFIG_H)
 #include <config/worldcoin-config.h>
 #endif
@@ -30,6 +31,8 @@
 #include <vector>
 
 #include <atomic>
+
+#include <boost/bind/bind.hpp>
 
 class CBlockIndex;
 class CBlockTreeDB;

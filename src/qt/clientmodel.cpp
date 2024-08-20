@@ -27,6 +27,9 @@
 
 #include <QDebug>
 #include <QTimer>
+#include <boost/bind/bind.hpp>
+
+using namespace boost::placeholders;
 
 static int64_t nLastHeaderTipUpdateNotification = 0;
 static int64_t nLastBlockTipUpdateNotification = 0;

@@ -98,7 +98,7 @@ unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHead
         return nProofOfWorkLimit;
 
     int nHeight = pindexLast->nHeight + 1;
-
+    __attribute__((unused))
     int64_t retargetSpacing  = params.nPowTargetSpacing;
     int64_t retargetInterval = params.DifficultyAdjustmentInterval();  
 

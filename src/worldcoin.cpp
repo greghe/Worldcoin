@@ -15,6 +15,7 @@
     #define M_PI 3.14159265358979323846
 #endif
 
+__attribute__((unused))
 int static generateMTRandom(unsigned int s, int range)
 {
     boost::mt19937 gen(s);
@@ -125,6 +126,7 @@ unsigned int CalculateWorldcoinNextWorkRequired(const CBlockIndex* pindexLast, i
 
 CAmount GetWorldcoinBlockSubsidy(int nHeight, const Consensus::Params& consensusParams)
 {
+    __attribute__((unused))
     const CAmount nMinSubsidy = 1 * COIN;
     // base payout
     CAmount nSubsidy = 50 * COIN;

@@ -132,6 +132,7 @@ private:
     // Configuration parameters for the block size
     bool fIncludeWitness;
     unsigned int nBlockMaxWeight;
+    __attribute__((unused))
     bool fNeedSizeAccounting;
     CFeeRate blockMinFeeRate;
 

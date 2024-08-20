@@ -13,6 +13,7 @@
 
 BOOST_FIXTURE_TEST_SUITE(main_tests, TestingSetup)
 
+__attribute__((unused))
 static void TestBlockSubsidyHalvings(const Consensus::Params& consensusParams)
 {
     // tested in worldcoin_tests.cpp
@@ -31,6 +32,7 @@ static void TestBlockSubsidyHalvings(const Consensus::Params& consensusParams)
     //BOOST_CHECK_EQUAL(GetBlockSubsidy(maxHalvings * consensusParams.nSubsidyHalvingInterval, consensusParams), 0);
 }
 
+__attribute__((unused))
 static void TestBlockSubsidyHalvings(int nSubsidyHalvingInterval)
 {
     // tested in worldcoin_tests.cpp
